@@ -1,0 +1,119 @@
+$carouselImageWidth: 288px;
+$carouselImageHeight: 200px;
+
+$characterInfoImageWidth: 288px;
+
+body {
+	margin: 0;
+	// cache la scrollbar horizontale
+	overflow-x: hidden;
+	background-color: black;
+	color: white;
+	
+}
+
+.inline-div {
+	display: inline-block;
+}
+
+.clearFloats {
+	clear: both;
+}
+
+/* Carousel et bannière*/
+.banner {}
+
+.carousel {
+	//width: $carouselImageWidth;
+	width: 100vw;
+	height: $carouselImageHeight;
+	overflow: hidden;
+	border: 0px solid #808080;
+	//margin: auto;
+
+	& ul {
+		/* x images donc x x 100% */
+		width: 1200%;
+		height: 200px;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	& li {
+		float: left;
+	}
+}
+
+/* Menu et navigation de gauche */
+.menu {
+	position: sticky;
+	color: white;
+	min-height: calc(100vh - 200px);
+	top: 0px;
+}
+
+nav {
+	& ul {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	& li {
+		list-style: none;
+		background-color: grey;
+		color: lightgrey;
+		width: 100px;
+		text-align: center;
+		cursor: pointer;
+		margin: 10px 0px 10px 0px;
+		border-radius: 5px;
+		
+		&:hover {
+			background-color: white;
+			color: black;
+		}
+		
+		&:active {
+			background-color: black;
+			color: white;
+		}
+	}
+}
+
+/* Contenu de page */
+.content {
+	vertical-align: top;
+	width: calc(100% - 130px);
+}
+	
+#dataContainer {
+	margin: 0px;
+}
+
+#infoLine {}
+
+#characterInfo {
+	font-size: 2em;
+	//width: 300px;
+	width: 70%;
+	vertical-align: top;
+	//width: calc(100% - $carouselImageWidth);
+}
+
+#characterType {
+	visibility: hidden;
+}
+
+/* Doit respecter une largeur d'image précise */
+#characterPhoto {
+	//content: url("../img/aries_min.jpg");
+	margin: 10px 10px 5px 20px;
+	float: right;
+}
+
+#characterDescription {
+	text-align: justify;
+	padding: 20px;
+	white-space: pre-wrap;
+}

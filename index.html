@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Saint Seiya</title>
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+	<!-- Bannière avec les images du carousel -->
+	<div class="banner">
+		<div class="carousel">
+			<ul>
+				<li><img src="img/aries_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/taurus_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/gemini_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/cancer_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/leo_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/virgo_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/libra_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/scorpio_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/sagittarius_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/capricorn_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/aquarius_min.jpg" width="288" height="200" /></li>
+				<li><img src="img/pisces_min.jpg" width="288" height="200" /></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Conteneur pour le reste de la page -->
+	<div>
+		<!-- Conteneur pour le Menu de gauche -->
+		<div class="menu inline-div">
+			<!-- Menu effectif -->
+			<nav>
+				<ul>
+					<li><a onclick="retrieveJSON(0)">Bélier</a></li>
+					<li><a onclick="retrieveJSON(1)">Taureau</a></li>
+					<li><a onclick="retrieveJSON(2)">Gémeaux (Saga)</a></li>
+					<li><a onclick="retrieveJSON(3)">Gémeaux (Kanon)</a></li>
+					<li><a onclick="retrieveJSON(4)">Cancer</a></li>
+					<li><a onclick="retrieveJSON(5)">Lion</a></li>
+					<li><a onclick="retrieveJSON(6)">Vierge</a></li>
+					<li><a onclick="retrieveJSON(7)">Balance</a></li>
+					<li><a onclick="retrieveJSON(8)">Scorpion</a></li>
+					<li><a onclick="retrieveJSON(9)">Sagittaire</a></li>
+					<li><a onclick="retrieveJSON(10)">Capricorne</a></li>
+					<li><a onclick="retrieveJSON(11)">Verseau</a></li>
+					<li><a onclick="retrieveJSON(12)">Poisson</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Contenu des requêtes AJAX  -->
+		<div class="content inline-div">
+			<div id="dataContainer">
+				<div id="infoLine">
+					<div id="characterInfo" class="inline-div">
+						<!-- Ces deux span sont sur la même ligne pour éviter un espace blanc.-->
+						<span id="characterName"></span><span id="characterSign"></span>
+					</div>
+					<img id="characterPhoto" />
+					<!-- Si on veut obliger à commencer le contenu suivant après la photo.
+					Je préfère sans.
+					<div class="clearFloats"></div>
+					-->
+				</div>
+				<div id="characterDescription">Choisissez un chevalier dans le menu pour voir ses informations.</div>
+			</div>
+		</div>
+	</div>
+	<!-- -->
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/carousel.js" type="application/javascript"></script>
+	<script src="js/ajaxQueries.js" type="application/javascript"></script>
+</body>
+
+</html>

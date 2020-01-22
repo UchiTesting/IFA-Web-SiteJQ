@@ -1,5 +1,8 @@
 ## IFA  Langage Web cycle 2020 - Site jQuery
 
+## 22/01/2020
+Publication de la version finale.
+
 ## 16/01/2020
 Mise en place de l'espace GIT.
 

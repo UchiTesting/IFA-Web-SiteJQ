@@ -1,0 +1,86 @@
+[
+	{
+		"id": 0,
+		"name": "Mü",
+		"sign": "Bélier",
+		"photo": "aries_desc.jpg",
+		"desc": "Mû (ムウ, Mû) est un personnage issu de Saint Seiya, c’est le Chevalier d’Or du Bélier. Âgé de 20 ans, il mesure 1,81 m pour un poids de 75 kg et son groupe sanguin est A. Mû est originaire des montagnes de Jamir (Tibet), qui se situe à la frontière entre la Chine et l’Inde, à 6 000 m d'altitude dans l’Himalaya et y a accompli son entrainement."
+    },
+	{
+		"id": 1,
+		"name": "Aldebaran",
+		"sign": "Taureau",
+		"photo": "taurus_desc.jpg",
+		"desc": "Aldébaran (アルデバラン, Arudebaran), nom de l’étoile alpha de la constellation du Taureau) est l’un des douze Chevaliers du Zodiaque. Il compte parmi les plus puissants. Il est d'origine brésilienne, porte l’armure d’or du Taureau et protège la deuxième maison sacrée du Sanctuaire."
+    },
+	{
+		"id": 2,
+		"name": "Saga",
+		"sign": "Gémeaux",
+		"photo": "gemini_desc.jpg",
+		"desc": "Saga ((双子座（ジェミニ）のサガ, Jemini no Saga) est un personnage du manga et de la série d’animation Saint Seiya et l’un des principaux protagonistes de Saint Seiya épisode G."
+    },
+	{
+		"id": 3,
+		"name": "Kanon",
+		"sign": "Gémeaux",
+		"photo": "gemini-kanon_desc.jpg",
+		"desc": "Kanon (海龍のカノン, Shīdoragon no Kanon?) est un personnage de fiction dans le manga et la série d’animation Saint Seiya. Sous le nom de Sea Dragon, il est le général Marinas, gardien du pilier de l’Océan Atlantique Nord, au service de Poséidon, chargé de la guerre contre Athéna. Puis, sous le nom de Kanon, il devient Chevalier d’Or des Gémeaux au service d’Athéna. Il est surtout connu pour avoir été celui qui tua Rhadamanthe, le plus puissant spectre d'Hades, mais il mourut avec lui."
+    },
+	{
+		"id": 4,
+		"name": "Deathmask",
+		"sign": "Cancer",
+		"photo": "cancer_desc.jpg",
+		"desc": "Masque de Mort (デスマスク, Desumasuku) est un personnage du manga et la série d’animation Saint Seiya. Chevalier d’Or du Cancer, gardien de la quatrième maison du Sanctuaire. Il est d’origine italienne. C’est un être violent et cruel. Son vrai nom et son passé restent inconnus, il est juste dévoilé qu’il a suivi son entrainement dans le sud de l’Italie. Pendant de nombreuses années, Masque de Mort a tué froidement hommes, femmes et enfants pour accomplir ses missions. Les visages de ses victimes innocentes sont incrustés dans sa maison et le Chevalier d'Or les considère comme une marque de son pouvoir."
+    },
+	{
+		"id": 5,
+		"name": "Aiolia",
+		"sign": "Lion",
+		"photo": "leo_desc.jpg",
+		"desc": "Aiolia (アイオリア, Aioria), ou Aior dans la version française de la série d’animation initiale, est un personnage de Saint Seiya. Chevalier d’Or du Lion, il est également le personnage principal du manga Saint Seiya épisode G. Il est d’origine grecque, né au Sanctuaire le 16 août et c’est là qu’il a suivi son entraînement. Son nom vient de Éolia, et il est le gardien de la cinquième maison du Zodiaque."
+    }, {
+		"id": 6,
+		"name": "Shaka",
+		"sign": "Vierge",
+		"photo": "virgo_desc.jpg",
+		"desc": "Dans l‘univers de Saint Seiya, Shaka (シャカ, Shaka) est un des douze Chevaliers d'Or. D‘origine indienne, il est le Chevalier de la constellation de la Vierge et gardien de la sixième maison du Zodiaque."
+    }, {
+		"id": 7,
+		"name": "Doko",
+		"sign": "Balance",
+		"photo": "libra_desc.jpg",
+		"desc": "Doko (天秤座の童虎, Raibura no Dōko), littéralement « l’enfant-tigre », est un personnage des manga Saint Seiya et Saint Seiya épisode G. Il est d’origine chinoise. Il est également l’un des personnages principaux des manga Saint Seiya: The Lost Canvas et Saint Seiya: Next Dimension. Dohko est le Chevalier d’Or de la Balance."
+    }, {
+		"id": 8,
+		"name": "Milo",
+		"sign": "Scorpion",
+		"photo": "scorpio_desc.jpg",
+		"desc": "Milo (ミロ, Miro) est le Chevalier d’Or du Scorpion et le gardien de la huitième maison du Zodiaque. Il est d’origine grecque. Milo est un des personnages les plus secrets de Saint Seiya, on sait peu de choses sur son passé."
+    }, {
+		"id": 9,
+		"name": "Aiolos",
+		"sign": "Sagittaire",
+		"photo": "sagittarius_desc.jpg",
+		"desc": "Aiolos (アイオロス, Aiorosu) est un personnage de Saint Seiya. D’origine grecque, son nom vient du nom grec du dieu du vent, Éole. Il est le Chevalier d’Or du Sagittaire, frère ainé d’Aiolia du Lion. Dans la version française, son nom varie beaucoup d'un épisode à l'autre, car il est aussi bien appelé Ayor, qu'Ayoros, Yora, Yoros, Ayori, etc."
+    }, {
+		"id": 10,
+		"name": "Shura",
+		"sign": "Capricorne",
+		"photo": "capricorn_desc.jpg",
+		"desc": "Shura (シュラ, Shura), de Asura (une caste de guerriers), est le personnage incarnant le Chevalier d’Or du Capricorne dans le manga Saint Seiya. Il est d’origine espagnole."
+    }, {
+		"id": 11,
+		"name": "Camus",
+		"sign": "Verseau",
+		"photo": "aquarius_desc.jpg",
+		"desc": "Camus (カミユ, Kamyu), nommé en hommage à l’écrivain français (son attaque « L'exécution de l'Aurore » fait référence à un passage du livre d'Albert Camus « L'Étranger », où le protagoniste assiste à l'exécution d'un homme au lever du jour), est le Chevalier d’Or du Verseau. Il est d’origine française. Il est aussi le maître de Hyôga dans le manga et du Chevalier Cristal dans la série d’animation. Tout comme les autres Chevaliers d’Or, il se fait manipuler par Saga lors de la bataille du Sanctuaire, même s’il ne se bat pas contre les Chevaliers de Bronze pour protéger le Grand Pope."
+    }, {
+		"id": 12,
+		"name": "Aphrodite",
+		"sign": "Poisson",
+		"photo": "pisces_desc.jpg",
+		"desc": "Aphrodite (アフロデイーテ, Afurodîte), nom de la déesse grecque de l’amour est le Chevalier d’Or des Poissons dans le manga Saint Seiya. D’origine suédoise, il est gardien du 12e et dernier temple du Zodiaque, ce qui en fait le dernier rempart du Grand Pope et d’Athéna en cas d’attaque du Sanctuaire par des forces ennemies."
+    }
+]

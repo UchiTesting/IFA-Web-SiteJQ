@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: black;
+  color: white; }
+
+.inline-div {
+  display: inline-block; }
+
+.clearFloats {
+  clear: both; }
+
+/* Carousel et bannière*/
+.carousel {
+  width: 100vw;
+  height: 200px;
+  overflow: hidden;
+  border: 0px solid #808080; }
+  .carousel ul {
+    /* x images donc x x 100% */
+    width: 1200%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+  .carousel li {
+    float: left; }
+
+/* Menu et navigation de gauche */
+.menu {
+  position: sticky;
+  color: white;
+  min-height: calc(100vh - 200px);
+  top: 0px; }
+
+nav ul {
+  padding-left: 10px;
+  padding-right: 10px; }
+nav li {
+  list-style: none;
+  background-color: grey;
+  color: lightgrey;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px; }
+  nav li:hover {
+    background-color: white;
+    color: black; }
+  nav li:active {
+    background-color: black;
+    color: white; }
+
+/* Contenu de page */
+.content {
+  vertical-align: top;
+  width: calc(100% - 130px); }
+
+#dataContainer {
+  margin: 0px; }
+
+#characterInfo {
+  font-size: 2em;
+  width: 70%;
+  vertical-align: top; }
+
+#characterType {
+  visibility: hidden; }
+
+/* Doit respecter une largeur d'image précise */
+#characterPhoto {
+  margin: 10px 10px 5px 20px;
+  float: right; }
+
+#characterDescription {
+  text-align: justify;
+  padding: 20px;
+  white-space: pre-wrap; }
+
+/*# sourceMappingURL=styles.css.map */
